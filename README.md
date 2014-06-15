@@ -1,4 +1,4 @@
-Greater Than Gamw
+Greater Than Game
 =================
 
 What is it?
