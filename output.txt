@@ -1,0 +1,43 @@
+
+ main main.cpp
+
+% main
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+E
+Answer: E
+
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+R
+Answer: R
+
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+L
+Answer: L
+
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+Q
+TOTAL 3 Questions: 1 L, 1 E, 1 R
+
+Enter to Quit.
+
+Goodbye!
+
+% main
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+/
+Error. Invalid option (character). Select L - E - R.
+,
+Error. Invalid option (character). Select L - E - R.
+
+ 
+Q
+TOTAL 0 Questions: 0 L, 0 E, 0 R
+
+Enter to Quit.
+
+Goodbye!
