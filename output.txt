@@ -1,11 +1,70 @@
+*********TEST RUN 1 of 3*********
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+1
+Please enter your basic data. 
+Name: Elmer
+Email: fuddy@gmail.com
+Age: 12
+Gender (M/F): M
+Player created and added: Elmer (fuddy@gmail.com)
 
- main main.cpp
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+1
+Please enter your basic data. 
+Name: Piggy
+Email: mrskermit@yahoo.com
+Age: 9
+Gender (M/F): F
+Player created and added: Piggy (mrskermit@yahoo.com)
 
-% main
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+4
+Please enter a name of a registered player: Piggy 
+Name: Piggy
+Email: mrskermit@yahoo.com
+Age: 9
+Gender (M/F): F
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+2
+All Registered Players (in order of entry): Elmer (fuddy@gmail.com), Piggy (mrskermit@yahoo.com), 
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+3
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
-E
-Answer: E
+L
+Answer: L
+
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+e
+Answer: e
 
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
@@ -14,30 +73,144 @@ Answer: R
 
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
-L
-Answer: L
-
-Enter a letter if Left or Right is greater/equal: L  E  R
-Q: Quit
-Q
+q
 TOTAL 3 Questions: 1 L, 1 E, 1 R
 
 Enter to Quit.
 
-Goodbye!
+Thanks for playing.
 
-% main
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+Y
+Invalid entry. Return to general menu.
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  Q. Quit
+Q
+Goodbye!
+Program ended with exit code: 0
+
+**********TEST RUN 2 of 3*********
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+2
+All Registered Players (in order of entry): 
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+3
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
-/
+Test
+Error. Invalid option (length). Select L - E - R.
+T
 Error. Invalid option (character). Select L - E - R.
-,
-Error. Invalid option (character). Select L - E - R.
+R
+Answer: R
 
- 
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
 Q
-TOTAL 0 Questions: 0 L, 0 E, 0 R
+TOTAL 1 Questions: 0 L, 0 E, 1 R
+
+Enter to Quit.
+T
+
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+Q
+TOTAL 1 Questions: 0 L, 0 E, 1 R
 
 Enter to Quit.
 
+Thanks for playing.
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+  Q. Quit
+Q
+Goodbye!
+
+**********TEST RUN 3 of 3*********
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+2
+Sorry, no players are registered currently.
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+q
+Goodbye!
+
+% main
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+2 
+Sorry, no players are registered currently.
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+1
+Please enter your basic data. 
+Name: 
+Cannot be blank. Name: Chunk
+Email:        
+Cannot be blank. Email: chunk.5@osu.edu
+Age: 
+Cannot be blank. Age: 3
+Gender (M/F): female
+Must be one character. Gender: M
+Player created and added: Chunk (chunk.5@osu.edu)
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+2
+All Registered Players (in order of entry): Chunk (chunk.5@osu.edu), 
+
+StayfitBrain
+  1. Add a Player
+  2. List players
+  3. Play Game
+  4. Retrieve Player
+ Q. Quit
+q
 Goodbye!
