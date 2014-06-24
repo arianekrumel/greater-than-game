@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7429219B-5CFE-4991-9446-52140BD86DC3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Greater Than Game</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E839BE70-03BB-440D-9929-F00D72E46292</key>
+		<string>ssh://github.com/arianekrumel/greater-than-game.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Greater Than Game.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E839BE70-03BB-440D-9929-F00D72E46292</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/arianekrumel/greater-than-game.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E839BE70-03BB-440D-9929-F00D72E46292</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E839BE70-03BB-440D-9929-F00D72E46292</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Greater Than Game</string>
+		</dict>
+	</array>
+</dict>
+</plist>
