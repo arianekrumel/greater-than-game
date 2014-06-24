@@ -10,6 +10,7 @@
 		37DD35BA194E056E00BC477F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37DD35B9194E056E00BC477F /* main.cpp */; };
 		37DD35BC194E056E00BC477F /* Greater_Than_Game.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37DD35BB194E056E00BC477F /* Greater_Than_Game.1 */; };
 		D0CA2D401959039300E927BE /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2D3E1959039300E927BE /* player.cpp */; };
+		D0CA2D431959043900E927BE /* database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2D411959043900E927BE /* database.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		37DD35BB194E056E00BC477F /* Greater_Than_Game.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Greater_Than_Game.1; sourceTree = "<group>"; };
 		D0CA2D3E1959039300E927BE /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
 		D0CA2D3F1959039300E927BE /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		D0CA2D411959043900E927BE /* database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = database.cpp; sourceTree = "<group>"; };
+		D0CA2D421959043900E927BE /* database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = database.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				37DD35B9194E056E00BC477F /* main.cpp */,
+				D0CA2D411959043900E927BE /* database.cpp */,
+				D0CA2D421959043900E927BE /* database.h */,
 				D0CA2D3E1959039300E927BE /* player.cpp */,
 				D0CA2D3F1959039300E927BE /* player.h */,
 				37DD35BB194E056E00BC477F /* Greater_Than_Game.1 */,
@@ -124,6 +129,7 @@
 			files = (
 				D0CA2D401959039300E927BE /* player.cpp in Sources */,
 				37DD35BA194E056E00BC477F /* main.cpp in Sources */,
+				D0CA2D431959043900E927BE /* database.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
