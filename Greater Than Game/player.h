@@ -19,6 +19,7 @@ private:
     string email;
     int age;
     char gender;
+    int score;
 public:
     // Constructors
     Player();
@@ -29,11 +30,13 @@ public:
     string getEmail();
     int getAge();
     char getGender();
+    int getScore();
     
     void setName(string newName);
     void setEmail(string newEmail);
     void setAge(int newAge);
     void setGender(char newGender);
+    void setScore(int newScore);
     
     // More methods
     string display();
@@ -41,4 +44,5 @@ public:
     ~Player();
 };
 
-#endif /* defined(__Greater_Than_Game__player__) */
+#endif
+ /* defined(__Greater_Than_Game__player__) */

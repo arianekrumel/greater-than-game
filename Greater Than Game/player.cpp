@@ -17,6 +17,7 @@ Player::Player()
     Player::email = "";
     Player::age = 0;
     Player::gender = ' ';
+    Player::score = 0;
 }
 
 Player::Player (string name, string email, int age, char gender)
@@ -25,6 +26,7 @@ Player::Player (string name, string email, int age, char gender)
     Player::email = email;
     Player::age = age;
     Player::gender = gender;
+    Player::score = 0;
 }
 
 // Accessor and Mutators
@@ -48,6 +50,11 @@ char Player::getGender()
     return gender;
 }
 
+int Player::getScore()
+{
+    return score;
+}
+
 void Player::setName(string newName)
 {
     Player::name = newName;
@@ -65,10 +72,14 @@ void Player::setGender(char newGender){
     Player::gender = newGender;
 }
 
+void Player::setScore(int newScore){
+    Player::score = newScore;
+}
+
 // More Methods
 string Player::display()
 {
-    return name + " (" + email + ")";
+    return name;
 }
 
 // Destructors

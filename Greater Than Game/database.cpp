@@ -23,10 +23,25 @@ int Database::getSize()
 }
 
 // More methods
-void Database::display()
+void Database::display(string type)
 {
-    for (int i=0; i < Database::roster.size(); ++i) {
-        cout << Database::roster[i].display() << ", ";
+    if(type.compare("default") == 0)
+    {
+        for (int i=0; i < Database::roster.size(); ++i) {
+            cout << Database::roster[i].display() << ", ";
+        }
+    }
+    if(type.compare("numbered") == 0)
+    {
+        for (int i=0; i < Database::roster.size(); ++i) {
+            cout << "  " << i+1 << ". " << Database::roster[i].display() << "\n";
+        }
+    }
+    if(type.compare("score") == 0)
+    {
+        for (int i=0; i < Database::roster.size(); ++i) {
+            cout << "  " << i+1 << ". " << Database::roster[i].display() << "\t" << Database::roster[i].getScore() << "\n";
+        }
     }
 }
 
@@ -36,15 +51,14 @@ void Database::add(Player newPlayer)
     Database::roster.push_back(newPlayer);
 }
 
-Player Database::retrieve(string name)
+void Database::remove(int position)
 {
-    Player thisPlayer = Database::roster.front();
-    
-    for (int i=0; i < Database::roster.size(); ++i) {
-        cout << Database::roster[i].display() << ", ";
-        if(Database::roster[i].getName() == name){
-            thisPlayer = Database::roster.front();
-        }
-    }
+    Database::size = Database::size - 1;
+    Database::roster.erase (Database::roster.begin()+position-1);
+}
+
+Player Database::retrieve(int position)
+{
+    Player thisPlayer = Database::roster.at(position - 1);
     return thisPlayer;
 }

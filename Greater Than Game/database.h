@@ -7,14 +7,14 @@
 
 #ifndef __Greater_Than_Game__database__
 #define __Greater_Than_Game__database__
-#include <deque>
+#include <vector>
 #include "player.h"
 
 using namespace std;
 
 class Database {
 private:
-    deque<Player> roster;
+    vector<Player> roster;
     int size;
     
 public:
@@ -25,9 +25,10 @@ public:
     int getSize();
     
     // More methods
-    void display();
+    void display(string type);
     void add(Player newPlayer);
-    Player retrieve(string name);
+    void remove(int position);
+    Player retrieve(int position);
 };
 
-#endif /* defined(__Greater_Than_Game__database__) */
+#endif
