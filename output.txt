@@ -1,216 +1,297 @@
-*********TEST RUN 1 of 3*********
+*********TEST RUN 1 of 3: No players registered*********
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-1
+Option: 1
+Sorry, no players are registered currently.
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 3
+Sorry, no players are registered currently.
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 5
+Sorry, no players are registered currently.
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 6
+Sorry, no players are registered currently.
+
+*********TEST RUN 2 of 3: Player registration, selection and retrieval*********
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 2
+Please enter your basic data. 
+Name: Piggy
+Email: mrskermit@gmail.com
+Age: 24
+Gender (M/F): female
+Must be one character. Gender: F
+Player created and added: Piggy
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 2
 Please enter your basic data. 
 Name: Elmer
-Email: fuddy@gmail.com
-Age: 12
+Email: 
+Cannot be blank. Email: elmer@osu.edu
+Age: 300   
+Please enter valid integer (1-100). Age: 26
 Gender (M/F): M
-Player created and added: Elmer (fuddy@gmail.com)
+Player created and added: Elmer
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-1
+Option: 2
 Please enter your basic data. 
-Name: Piggy
-Email: mrskermit@yahoo.com
-Age: 9
-Gender (M/F): F
-Player created and added: Piggy (mrskermit@yahoo.com)
+Name: Chunk
+Email: chunk@yahoo.com
+Age: three
+Please enter valid integer (1-100). Age: 3
+Gender (M/F): male
+Must be one character. Gender: K
+Must be characters M or F. Gender: m
+Player created and added: Chunk
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-4
-Please enter a name of a registered player: Piggy 
-Name: Piggy
-Email: mrskermit@yahoo.com
-Age: 9
-Gender (M/F): F
+Option: 5
+Rank: Players listed by score
+  1. Piggy	0
+  2. Elmer	0
+  3. Chunk	0
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-2
-All Registered Players (in order of entry): Elmer (fuddy@gmail.com), Piggy (mrskermit@yahoo.com), 
+Option: 1
+Select a Player:
+  1. Piggy
+  2. Elmer
+  3. Chunk
+I select player #: 2
+Selected Player: Elmer
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-3
+Option: 4
+  Name: Elmer
+  Email: elmer@osu.edu
+  Gender: M
+  Age: 26
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: q
+Goodbye!
+
+*********TEST RUN 3 of 3: Game play, scores and player removal*********
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 2
+Please enter your basic data. 
+Name: Chunk 
+Email: chunk@yahoo.com
+Age: 3
+Gender (M/F): m
+Player created and added: Chunk
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 1
+Select a Player:
+  1. Chunk
+I select player #: 1
+Selected Player: Chunk
+
+StayfitBrain
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
+  4. Retrieve Player
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: 6
+
+Play Game
+14*2		21-3
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+l
+Answer: l
+Correct
+
+4		32/2
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
 L
 Answer: L
+Incorrect
 
+3		32/2
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
 e
 Answer: e
+Incorrect
 
+21-3		26
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+E
+Answer: E
+Incorrect
+
+23		12*2
+Enter a letter if Left or Right is greater/equal: L  E  R
+Q: Quit
+r
+Answer: r
+Correct
+
+13*2		22
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
 R
 Answer: R
+Incorrect
 
+24		34/2
 Enter a letter if Left or Right is greater/equal: L  E  R
 Q: Quit
 q
-TOTAL 3 Questions: 1 L, 1 E, 1 R
-
-Enter to Quit.
-
-Thanks for playing.
+Number of questions: 6	Score: 2
+Brain index is: 2000
+Enter to return to main menu.
+Thanks for playing!
+Current player, Chunk, score reset to: 2000
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-Y
-Invalid entry. Return to general menu.
+Option: 5
+Rank: Players listed by score
+  1. Chunk	2000
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  Q. Quit
-Q
-Goodbye!
-Program ended with exit code: 0
-
-**********TEST RUN 2 of 3*********
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-2
-All Registered Players (in order of entry): 
+Option:  3
+Remove a Player:
+  1. Chunk
+I select player #: 1
+Player #1 removed!
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
+  5. List players
+  6. Play Game
   Q. Quit
-3
-Enter a letter if Left or Right is greater/equal: L  E  R
-Q: Quit
-Test
-Error. Invalid option (length). Select L - E - R.
-T
-Error. Invalid option (character). Select L - E - R.
-R
-Answer: R
-
-Enter a letter if Left or Right is greater/equal: L  E  R
-Q: Quit
-Q
-TOTAL 1 Questions: 0 L, 0 E, 1 R
-
-Enter to Quit.
-T
-
-Enter a letter if Left or Right is greater/equal: L  E  R
-Q: Quit
-Q
-TOTAL 1 Questions: 0 L, 0 E, 1 R
-
-Enter to Quit.
-
-Thanks for playing.
-
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
-  Q. Quit
-Q
-Goodbye!
-
-**********TEST RUN 3 of 3*********
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
- Q. Quit
-2
+Option: 5
 Sorry, no players are registered currently.
 
 StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
+  1. Select Player
+  2. Add a Player
+  3. Remove a player
   4. Retrieve Player
- Q. Quit
-q
-Goodbye!
-
-% main
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
- Q. Quit
-2 
-Sorry, no players are registered currently.
-
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
- Q. Quit
-1
-Please enter your basic data. 
-Name: 
-Cannot be blank. Name: Chunk
-Email:        
-Cannot be blank. Email: chunk.5@osu.edu
-Age: 
-Cannot be blank. Age: 3
-Gender (M/F): female
-Must be one character. Gender: M
-Player created and added: Chunk (chunk.5@osu.edu)
-
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
- Q. Quit
-2
-All Registered Players (in order of entry): Chunk (chunk.5@osu.edu), 
-
-StayfitBrain
-  1. Add a Player
-  2. List players
-  3. Play Game
-  4. Retrieve Player
- Q. Quit
-q
+  5. List players
+  6. Play Game
+  Q. Quit
+Option: q
 Goodbye!
