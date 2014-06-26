@@ -62,8 +62,8 @@ The Stayfit Brain game first presents as a general menu.
     Updates currently selected player with recent score.<br />
     Will give error message if player is not registered.<br />
 * Select Q to quit program.<br />
-* 
-   Upon selecting the 6th option, the game menu will start and present
+
+Upon selecting the 6th option, the game menu will start and present
    a new menu of options.<br />
 * Select L, E or R to submit and save valid answer<br />
 * Select Q to call up quit confirmation dialog where player can press<br />
